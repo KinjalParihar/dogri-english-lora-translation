@@ -1,0 +1,1 @@
+{"bleu": {"bleu": 0.0, "precisions": [0.06756756756756757, 0.0, 0.0, 0.0], "brevity_penalty": 1.0, "length_ratio": 2.5517241379310347, "translation_length": 74, "reference_length": 29}, "meteor": {"meteor": 0.2228830992019632}}
