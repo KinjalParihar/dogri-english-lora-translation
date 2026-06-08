@@ -45,12 +45,18 @@ The model was evaluated using: METEOR
 # PROJECT STRUCTURE
 ```
 ├── data/
-│   ├── train.csv
+│   ├── dogri-datasetv01.csv
+|   ├── dogri-datasetv02.csv
+|   ├── final-dataset.csv
+|   ├── idioms-normalV1.csv
 │   └── idioms.csv
 │
 ├── notebooks/
-│   ├── lora_training.ipynb
-│   └── baseline_evaluation.ipynb
+│   ├── baseline nb.ipynb
+|   ├── dogri v1 nb.ipynb
+|   ├── dogri v2 nb.ipynb
+|   ├── final-dataset nb.ipynb
+│   └── idiom-normal.ipynb
 │
 ├── results/
 │   ├── baseline results.json
