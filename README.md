@@ -53,9 +53,10 @@ The model was evaluated using: METEOR
 │   └── baseline_evaluation.ipynb
 │
 ├── results/
-│   ├── baseline_scores.json
-│   ├── lora_scores.json
-│   └── predictions.csv
+│   ├── baseline results.json
+│   ├── final-dataset results.json
+|   ├── v1 results.json
+│   └── v2 results.json
 │
 └── README.md
 ```
