@@ -6,10 +6,10 @@ The objective was to investigate whether a pre-trained multilingual translation 
 
 # DATASET
 
-477 Dogri-English sentence pairs
-Dogri written in Devanagari script
-Custom curated and cleaned dataset
-Train-Test Split: 80:20 (seed=42)
+1) 477 Dogri-English sentence pairs, and from this two smaller subsets were created for incremental evaluation: Dataset 1 (v1) contains 51 pairs, Dataset 2 (v2) contains 151 pairs, and the final dataset with all 477 pairs
+2) Dogri written in Devanagari script
+3) Custom curated and cleaned dataset
+4) Train-Test Split: 80:20 (seed=42)
 
 ### ADDITIONAL EVALUATION SET
 
@@ -21,6 +21,7 @@ Base Model- NLLB-200 Distilled 600M
 Fine-Tuning Method- LoRA (Low-Rank Adaptation)
 
 # EVALUATION METRICS
+
 The model was evaluated using: METEOR
 
 # RESULTS
@@ -28,7 +29,9 @@ The model was evaluated using: METEOR
 | Model	| METEOR Score |
 |:--- | :---: |
 | Baseline NLLB-200 |	0.32 |
-| NLLB-200 + LoRA |	0.59 |
+| NLLB-200 + LoRA (with 477 sentence pairs) |	0.59 |
+| NLLB-200 + LoRA (with 151 sentence pairs) | 0.46 |
+| NLLB-200 + LoRA (with 51 sentence pairs) | 0.22 |
 
 # KEY OBSERVATIONS
 1) Fine-tuning significantly improved translation quality.
