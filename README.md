@@ -45,8 +45,8 @@ The model was evaluated using: METEOR
 # PROJECT STRUCTURE
 ```
 ├── data/
-│   ├── dogri-datasetv01.csv
-|   ├── dogri-datasetv02.csv
+│   ├── dogri-datasetv1.csv
+|   ├── dogri-datasetv2.csv
 |   ├── final-dataset.csv
 |   ├── idioms-normalV1.csv
 │   └── idioms.csv
