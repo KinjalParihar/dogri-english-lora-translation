@@ -2,7 +2,7 @@
 # OVERVIEW
 
 **This project explores low-resource machine translation for Dogri → English using LoRA (Low-Rank Adaptation) fine-tuning on the NLLB-200 Distilled 600M model.**
-The objective was to investigate whether a pre-trained multilingual translation model can improve translation quality when fine-tuned on a small custom Dogri-English dataset.
+The objective was to examine whether a pre-trained multilingual translation model can improve translation quality when fine-tuned on a small custom Dogri-English dataset.
 
 # DATASET
 
