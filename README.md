@@ -32,6 +32,8 @@ The model was evaluated using: METEOR
 | NLLB-200 + LoRA (with 477 sentence pairs) |	0.59 |
 | NLLB-200 + LoRA (with 151 sentence pairs) | 0.46 |
 | NLLB-200 + LoRA (with 51 sentence pairs) | 0.22 |
+| Idiom METEOR | 0.0052 |
+| Normal METEOR | 0.019 |
 
 # KEY OBSERVATIONS
 1) Fine-tuning significantly improved translation quality.
