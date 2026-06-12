@@ -68,13 +68,13 @@ The model was evaluated using: METEOR
 ```
 # TECHNOLOGIES USED
 
-Python
-Hugging Face Transformers
-PEFT (LoRA)
-PyTorch
-Datasets
-Evaluate
-Google Colab
+1) Python
+2) Hugging Face Transformers
+3) PEFT (LoRA)
+4) PyTorch
+5) Datasets
+6) Evaluate
+7) Google Colab
 
 # FUTURE WORK
 1) Increase training data size
